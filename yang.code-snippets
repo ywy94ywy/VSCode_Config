@@ -1,0 +1,42 @@
+{
+	"console.log": {
+		"prefix": "cl",
+		"body": [
+			"console.log($1)",
+		]
+	},
+	"import": {
+		"prefix": "im",
+		"body": [
+			"import '$1'",
+		]
+	},
+	"importFrom": {
+		"prefix": "imf",
+		"body": [
+			"import $2 from '$1'",
+		]
+	},
+	"importDeconstruction": {
+		"prefix": "imd",
+		"body": [
+			"import { $2 } from '$1'",
+		]
+	},
+	"react": {
+		"prefix": "rt",
+		"body": [
+			"import React from 'react'",
+			"",
+			"export default () => {",
+			"  return <div>$1</div>",
+			"}",
+		]
+	},
+	"deconstruction": {
+		"prefix": "dc",
+		"body": [
+			"const { $2 } = $1"
+		]
+	},
+}

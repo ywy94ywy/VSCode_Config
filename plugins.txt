@@ -1,0 +1,8 @@
+Auto Close Tag //自动闭合标签
+Auto Rename Tag //自动重命名标签
+Bracket Pair Colorizer 2 //括号颜色区分
+Code Runner //代码执行
+Color Highlight //颜色高亮
+koroFileHeader //文件与函数注释
+Live Server //本地开发服务器
+Prettier //代码格式化
